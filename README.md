@@ -42,7 +42,7 @@ Optimized UI: Stylish ASCII Art and color-coded results for Termux/Linux.
 ```bash
 pkg update && pkg upgrade -y
 pkg install python git -y
-git clone [https://github.com/bkshukla91/balkrishna-isp-finder.git](https://github.com/bkshukla91/balkrishna-isp-finder.git)
+git clone https://github.com/bkshukla91/balkrishna-isp-finder.git
 cd balkrishna-isp-finder
 pip install -r requirements.txt
 python balkrishna_isp.py
