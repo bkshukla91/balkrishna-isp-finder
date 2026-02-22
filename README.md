@@ -8,7 +8,8 @@
 ---
 
 ## 📸 Tool Preview
-![Main Interface](assets/screenshot.png)
+![Main Interface](screenshot.jpg)
+![Main Interface](screenshot2.jpg)
 
 ---
 
@@ -24,10 +25,8 @@ graph TD
     D --> E[Generate Google Maps Link]
     E --> F[Display Intelligence Report]
     F --> G[End Scan]
-
----
-
-## Key Features 
+'''
+ 
 Full Intelligence: Fetches AS, Country, City, ISP, Org, and Zip.
 Coordinate Precision: Provides exact Latitude and Longitude.
 Visual Mapping: Generates a direct Google Maps link.
