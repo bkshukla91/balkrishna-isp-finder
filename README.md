@@ -14,19 +14,11 @@
 ---
 
 ## 📊 Project Structure & Workflow
+![Main Interface](image.png)
 
-Below is the logical flow of how the tool processes a target IP:
+---
 
-```mermaid
-graph TD
-    A[Start Tool] --> B{Input IP Address}
-    B -->|User Provides IP| C[Initialize Multi-API Connection]
-    C --> D[Fetch Geo-Location & ISP Data]
-    D --> E[Generate Google Maps Link]
-    E --> F[Display Intelligence Report]
-    F --> G[End Scan]
-'''
- 
+## 💎 Key Features 
 Full Intelligence: Fetches AS, Country, City, ISP, Org, and Zip.
 Coordinate Precision: Provides exact Latitude and Longitude.
 Visual Mapping: Generates a direct Google Maps link.
