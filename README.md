@@ -12,9 +12,14 @@
 ![Main Interface](screenshot2.jpg)
 
 ---
+## 4. Workflow Visual (Vertical Step-by-Step)
+For a clean vertical look, your workflow should look like this on the page:
 
-## 📊 Project Structure & Workflow
-![Main Interface](image.png)
+1.  **Start**: Launch the Python script.
+2.  **Input**: Enter the Target IP.
+3.  **Process**: API fetches data from the cloud.
+4.  **Result**: Full ISP details displayed.
+5.  **Finish**: Scan completes.
 
 ---
 
@@ -26,24 +31,30 @@ Optimized UI: Stylish ASCII Art and color-coded results for Termux/Linux.
 
 ---
 
-## 📥 Installation & Usage
-Follow the steps below according to your environment. Copy and paste the entire block to set up the tool automatically.
+### 📥 Installation & Usage
 
-## 📱 For Termux (Android)
+#### 📱 For Termux (Android)
+```bash
 pkg update && pkg upgrade -y
 pkg install python git -y
-git clone https://github.com/bkshukla91/balkrishna-isp-finder.git
+git clone [https://github.com/bkshukla91/balkrishna-isp-finder.git](https://github.com/bkshukla91/balkrishna-isp-finder.git)
 cd balkrishna-isp-finder
 pip install -r requirements.txt
 python balkrishna_isp.py
 
-## 💻 For Linux (Ubuntu/Debian/Kali)
+#### 💻 For Linux (Ubuntu/Kali/Debian)
+```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install python3 python3-pip git -y
 git clone https://github.com/bkshukla91/balkrishna-isp-finder.git
 cd balkrishna-isp-finder
 pip3 install -r requirements.txt
 python3 balkrishna_isp.py
+
+---
+
+## 📊 Project Structure & Workflow
+![Main Interface](image.png)
 
 ---
 
