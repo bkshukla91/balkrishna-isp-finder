@@ -12,6 +12,11 @@
 ![Main Interface](screenshot2.jpg)
 
 ---
+## 📊 Project Structure & Workflow
+![Main Interface](image.png)
+
+---
+
 ## 4. Workflow Visual (Vertical Step-by-Step)
 For a clean vertical look, your workflow should look like this on the page:
 
@@ -50,11 +55,6 @@ git clone https://github.com/bkshukla91/balkrishna-isp-finder.git
 cd balkrishna-isp-finder
 pip3 install -r requirements.txt
 python3 balkrishna_isp.py
-
----
-
-## 📊 Project Structure & Workflow
-![Main Interface](image.png)
 
 ---
 
