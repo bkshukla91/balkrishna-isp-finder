@@ -1,7 +1,7 @@
 # 🛡️ Balkrishna ISP Finder v4.0
 > **The Ultimate IP Intelligence & ISP Reconnaissance Tool for Professionals.**
 
-![License](https://img.shields.io/github/license/yourusername/balkrishna-isp-finder?style=for-the-badge)
+![License](https://img.shields.io/github/license/bkshukla91/balkrishna-isp-finder?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
 ![Platform](https://img.shields.io/badge/Platform-Termux%20%7C%20Linux-green?style=for-the-badge)
 
@@ -14,7 +14,6 @@
 
 ## 📊 Project Structure & Workflow
 Below is the logical flow of how the tool processes a target IP:
-
 ```mermaid
 graph TD
     A[Start Tool] --> B{Input IP Address}
