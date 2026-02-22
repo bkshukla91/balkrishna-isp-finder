@@ -24,18 +24,31 @@ Coordinate Precision: Provides exact Latitude and Longitude.
 Visual Mapping: Generates a direct Google Maps link.
 Optimized UI: Stylish ASCII Art and color-coded results for Termux/Linux.
 
-📥 Installation & Usage
-1. Clone the Repository
-git clone [https://github.com/bkshukla91/balkrishna-isp-finder.git](https://github.com/bkshukla91/balkrishna-isp-finder.git)
+---
+
+## 📥 Installation & Usage
+Follow the steps below according to your environment. Copy and paste the entire block to set up the tool automatically.
+
+## 📱 For Termux (Android)
+pkg update && pkg upgrade -y
+pkg install python git -y
+git clone https://github.com/bkshukla91/balkrishna-isp-finder.git
 cd balkrishna-isp-finder
-
-2. Install Dependencies
 pip install -r requirements.txt
-
-3. Run the Tool
 python balkrishna_isp.py
 
-📜 License
+## 💻 For Linux (Ubuntu/Debian/Kali)
+sudo apt update && sudo apt upgrade -y
+sudo apt install python3 python3-pip git -y
+git clone https://github.com/bkshukla91/balkrishna-isp-finder.git
+cd balkrishna-isp-finder
+pip3 install -r requirements.txt
+python3 balkrishna_isp.py
+
+---
+
+## 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.
-⚖️ Disclaimer
+
+## ⚖️ Disclaimer
 This tool is for Educational Purposes and Authorized Pentesting only. The author is not responsible for any misuse.
