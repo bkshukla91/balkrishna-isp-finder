@@ -16,6 +16,10 @@
 
 Below is the logical flow of how the tool processes a target IP:
 
+## 📊 Project Structure & Workflow
+
+Below is the logical flow of how the tool processes a target IP:
+
 ```mermaid
 graph TD
     A[Start Tool] --> B{Input IP Address}
@@ -24,8 +28,7 @@ graph TD
     D --> E[Generate Google Maps Link]
     E --> F[Display Intelligence Report]
     F --> G[End Scan]
-
-## Key Features
+---
 Full Intelligence: Fetches AS, Country, City, ISP, Org, and Zip.
 Coordinate Precision: Provides exact Latitude and Longitude.
 Visual Mapping: Generates a direct Google Maps link.
